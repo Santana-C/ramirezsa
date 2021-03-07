@@ -1,0 +1,141 @@
+* {
+    color: white;
+    background-color: rgb(40, 40, 40);
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+.menu li {
+    font-weight: bold;
+    background-color: rgb(52, 52, 156);
+}
+.menu span {
+    display: contents;
+}
+
+.menu li:hover {
+    background-color: rgb(48, 48, 194);
+}
+
+.contenido h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 5em;
+}
+
+.contenido div {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.contenido p{
+    font-size: large;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+    body>div{
+        display: inline;
+    }
+    .menu ul{
+        padding: 30px;
+        list-style-type: none;
+    }
+    .menu li {
+        text-align: center;
+        padding: 15px;
+        margin-bottom: 5px;
+    }
+    .contenido {
+        max-width: 100%;
+    }
+    .contenido div {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .contenido p{
+        font-size: medium;
+        padding: 0;
+        margin: 0;
+    }
+    .contenido h2{
+        font-size: 3em;
+    }
+    h2{
+        color:green;
+    } 
+}
+
+@media screen and (min-width: 600px) {
+    body{
+        display: inline;
+    }
+
+    .menu ul{
+        padding-top: 25px;
+        text-align: center;
+    }
+    .menu li{
+        width: 25%;
+        margin:1%;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        display: inline-block;
+        border-radius: 17px;
+    }
+    .contenido {
+        max-width: 100%;
+    }
+    .contenido div {
+        padding-top: 25px;
+        padding-bottom: 60px;
+    }
+    h2{
+        color:blue;
+    } 
+}
+
+@media screen and (min-width: 992px) {
+    body div{
+        display: inline-block;
+    }
+    
+    .menu {
+        width: 15%;
+        margin: 0%;
+        float: left;
+        text-align: center;
+    }
+    
+    .menu ul {
+        list-style-type: none;
+        vertical-align: middle;
+        padding-top: 0px;
+        margin: 0px;
+        background-color: rgb(52, 52, 156);
+    }
+    
+    .menu li {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0px;
+        border-radius: 0px;
+        display: block;
+        width: 100%;
+    }
+    
+    .contenido {
+        max-width: 85%;
+    }
+    
+    .contenido div {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    h2{
+        color:red;
+    }
+}
