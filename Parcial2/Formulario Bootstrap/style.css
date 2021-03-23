@@ -1,0 +1,8 @@
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+.col-sm-4{
+    margin: 4px;
+}
