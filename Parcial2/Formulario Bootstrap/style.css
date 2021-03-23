@@ -3,6 +3,14 @@
     max-height: 200px;
     overflow-x: hidden;
 }
-.col-sm-4{
-    margin: 4px;
+
+@media screen and (max-width: 575px) {
+    .col-sm-4{
+        margin: 4px;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 576px) {
+    .col-md-3{
+        margin: 4px;
+    }
 }
